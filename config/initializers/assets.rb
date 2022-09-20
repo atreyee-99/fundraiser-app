@@ -10,4 +10,4 @@ Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
-Rails.application.config.assets.precompile += %w(jquery.min.js jquery_ujs.js bootstrap.min.js admin.js admin.css custom.css)
+Rails.application.config.assets.precompile += %w(jquery.min.js jquery_ujs.js bootstrap.min.js custom.css)
