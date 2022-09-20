@@ -1,0 +1,127 @@
+.top-block{
+    background: rgba(109,27,73,1);
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 46px;
+    position: relative;
+}
+.block-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    height: 46px;
+}
+.exhaust-div{
+    display: block;
+    background: rgba(255,255,255,1);
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.exhaust-content{
+    position: absolute;
+    background: none;
+    /* height: 419px; */
+    width: 100%;
+}
+.exhaust-block-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    height: 419px;
+}
+.exhaust-text-block{
+    height: auto;
+    background: rgba(255,255,255,0);
+    border-style: none;
+    border-radius: 0px;
+    /* left: 412px; */
+    top: 75px;
+    z-index: 108;
+    width: 614px;
+    height: 32px;
+}
+.exhaust-list{
+    height: auto;
+    background: rgba(255,255,255,0);
+    border-style: none;
+    border-radius: 0px;
+    left: 412px;
+    top: 753.6000061035156px;
+    z-index: 32;
+    width: 642px;
+    height: 124px;
+}
+.ul-exhaust-points{
+    margin-left: 16px;
+}
+.exhaust-image{
+    display: block;
+    background: rgba(255,255,255,0);
+    /* left: 32px; */
+    top: 75px;
+    z-index: 109;
+    position: absolute;
+}
+.img-container{
+    border-style: none;
+    border-radius: 0px;
+    width: 344px;
+    height: 220px;
+}
+.funds-desc{
+    height: auto;
+    background: rgba(255,255,255,0);
+    border-style: none;
+    border-radius: 0px;
+    /* left: 282px; */
+    /* top: 918px; */
+    margin-left: 300px;
+    z-index: 89;
+    width: 624px;
+    height: 32px;
+    /* position: absolute; */
+}
+.start-fund-button{
+    border-style: none;
+    border-radius: 100px;
+    left: 412px;
+    top: 570px;
+    z-index: 86;
+    width: 305px;
+    height: 53px;
+    position: absolute;
+    cursor: pointer;
+    background: rgba(109,27,73,1);
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: Lato;
+    font-style: normal;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.start-btn-label{
+    margin-top: -13px;
+    position: absolute;
+    top: 50%;
+    display: block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 0 8px 0 8px;
+    cursor: pointer;
+}
+  
