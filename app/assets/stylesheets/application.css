@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+  
+
+
+ #main
+ {
+     justify-content: space-around;
+     display: flex;
+ }
+ #main div.box 
+ {
+    box-sizing: border-box;
+     width: 200px;
+     position: relative;
+ }
+ 
+ #main div.text 
+ {
+     position: absolute;
+     font-size: large;
+     top: 0px;
+     width: 130px;
+     right: 0px;
+ }
+ 
