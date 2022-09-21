@@ -124,4 +124,15 @@
     padding: 0 8px 0 8px;
     cursor: pointer;
 }
+.divider{
+    height: 20px;
+    width: 1px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+}
+.textcols{
+    position: static;
+}
   
