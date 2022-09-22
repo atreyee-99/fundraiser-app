@@ -27,6 +27,11 @@
   }
   .button4 {border-radius: 25px;}
 
+  .button4:hover{
+    color: #fff;
+    background-color: rgba(109,27,73,1);
+  }
+
   .glyphicon {
     padding-top: 10px;
     font-size: 35px;
