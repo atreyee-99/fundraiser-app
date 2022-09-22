@@ -24,7 +24,7 @@
     margin-bottom: 0px;
     border-radius: 0px;
     width: 100%;
-    height: 350px;
+    height: 450px;
     position: relative;
 }
 .exhaust-content{
@@ -45,7 +45,7 @@
     border-style: none;
     border-radius: 0px;
     /* left: 412px; */
-    top: 75px;
+    top: 82px;
     z-index: 108;
     width: 614px;
     height: 32px;
@@ -84,18 +84,18 @@
     border-style: none;
     border-radius: 0px;
     /* left: 282px; */
-    /* top: 918px; */
+    top: 306px;
     margin-left: 300px;
     z-index: 89;
     width: 624px;
     height: 32px;
-    /* position: absolute; */
+    position: absolute;
 }
 .start-fund-button{
     border-style: none;
     border-radius: 100px;
-    left: 412px;
-    top: 570px;
+    left: 510px;
+    top: 378px;
     z-index: 86;
     width: 305px;
     height: 53px;
