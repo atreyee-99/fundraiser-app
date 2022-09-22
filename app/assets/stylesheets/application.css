@@ -78,6 +78,9 @@
   font-family: Lato;
   font-style: normal;
   text-align: center;
+  width: 305px;
+  height: 53px;
+  padding-bottom: 45px;
 }
 .fundraiser:hover{
   color: #fff;
