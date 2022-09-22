@@ -21,14 +21,44 @@
      justify-content: space-around;
      display: flex;
  }
- #main div.box 
+ #main div.box1 
  {
     box-sizing: border-box;
      width: 200px;
      position: relative;
  }
  
- #main div.text 
+ #main div.text1 
+ {
+     position: absolute;
+     font-size: large;
+     top: 0px;
+     width: 130px;
+     right: 0px;
+ }
+ #main div.box2 
+ {
+    box-sizing: border-box;
+     width: 200px;
+     position: relative;
+ }
+ 
+ #main div.text2
+ {
+     position: absolute;
+     font-size: large;
+     top: 0px;
+     width: 130px;
+     right: 0px;
+ }
+ #main div.box3 
+ {
+    box-sizing: border-box;
+     width: 200px;
+     position: relative;
+ }
+ 
+ #main div.text3 
  {
      position: absolute;
      font-size: large;
@@ -37,3 +67,96 @@
      right: 0px;
  }
  
+ #main div.box4 
+ {
+    box-sizing: border-box;
+     width: 200px;
+     position: relative;
+ }
+ 
+ #main div.text4 
+ {
+     position: absolute;
+     font-size: large;
+     top: 0px;
+     width: 130px;
+     right: 0px;
+ }
+ .button {
+    background-color:rgba(156,51,83,1);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .button4 {border-radius: 25px;}
+
+  .glyphicon {
+    padding-top: 10px;
+    font-size: 35px;
+  }
+
+  #header{
+    padding-top: 15px;
+  }
+  .footertext{
+    padding-left: 100px;
+    font-size: large;
+  }
+  .privacylink{
+    padding-left: 650px;
+    color: black;
+    text-decoration: underline;
+  }
+  .privacylink:hover{
+    color: black;
+  }
+  .firstblock{
+    background-color: rgb(236, 231, 231);
+  }
+  .firstheading{
+    padding-left: 50px;
+    padding-top: 100px;
+    font-size: 38px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .firstheading2{
+    padding-left: 50px;
+    font-size: 38px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .firstsubheading{
+    padding-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.fundraiser{
+  background: rgba(109,27,73,1);
+  border-radius: 35px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+  font-family: Lato;
+  font-style: normal;
+  text-align: center;
+  width: 305px;
+  height: 53px;
+  padding-bottom: 45px;
+}
+.fundraiser:hover{
+  color: #fff;
+  background-color: rgb(173, 55, 91);
+  text-decoration: none;
+}
+
+.fund-button{
+  padding-left: 100px;
+}
