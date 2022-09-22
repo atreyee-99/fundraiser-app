@@ -79,6 +79,11 @@
   font-style: normal;
   text-align: center;
 }
+.fundraiser:hover{
+  color: #fff;
+  background-color: rgb(173, 55, 91);
+  text-decoration: none;
+}
 
 .fund-button{
   padding-left: 100px;
