@@ -81,7 +81,7 @@
  #main div.text2
  {
      position: absolute;
-     font-size: 16px;
+     font-size: 17px;
      top: 0px;
      width: 150px;
      height: 150px;
@@ -102,7 +102,7 @@
  #main div.text3 
  {
      position: absolute;
-     font-size: large;
+     font-size: 18px;
      
      top: 10px;
      width: 160px;
