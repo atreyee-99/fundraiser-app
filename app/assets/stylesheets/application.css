@@ -27,6 +27,11 @@
   }
   .button4 {border-radius: 25px;}
 
+  .button4:hover{
+    color: #fff;
+    background-color: rgba(109,27,73,1);
+  }
+
   .glyphicon {
     padding-top: 10px;
     font-size: 35px;
@@ -46,26 +51,6 @@
   }
   .privacylink:hover{
     color: black;
-  }
-  .firstblock{
-    background-color: rgb(236, 231, 231);
-  }
-  .firstheading{
-    padding-left: 50px;
-    padding-top: 100px;
-    font-size: 38px;
-    font-weight: 800;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .firstheading2{
-    padding-left: 50px;
-    font-size: 38px;
-    font-weight: 800;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .firstsubheading{
-    padding-left: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
 .fundraiser{
