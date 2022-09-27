@@ -72,4 +72,16 @@
   background-color: rgb(173, 55, 91);
   text-decoration: none;
 }
+.first-div{
+  display: block;
+  background-color: rgb(236, 231, 231);
+  border-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
 
