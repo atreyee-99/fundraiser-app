@@ -27,6 +27,17 @@
     height: 419px;
     position: relative;
 }
+.first-div{
+    display: block;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
 .exhaust-content{
     position: absolute;
     background: none;
