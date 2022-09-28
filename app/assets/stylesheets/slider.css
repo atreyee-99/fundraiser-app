@@ -1,0 +1,37 @@
+/* styles of slick slider */
+.slider {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+}
+
+.slick-active {
+  opacity: 0.5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+.img-slider {
+  height: 583px;
+  width: 500px;
+}
+.slick-dots {
+  display: none !important;
+}
