@@ -6,6 +6,4 @@ $(document).on('ready', function() {
     slidesToShow:1 ,
     slidesToScroll: 3
   });
-
-
 });
