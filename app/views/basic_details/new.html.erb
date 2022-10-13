@@ -1,0 +1,62 @@
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <%= image_tag "milaap-logo.png", height: 50 %>      
+    </div>
+    <div class = "navbar-text">
+          <p>Setup fundraiser</p>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a class="nav-link" href="/logout"><h4>Logout</h4></a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div>
+   <%= flash[:notice] if flash[:notice]%>
+</div>
+<div class = "form">
+<div class="mx-auto  text-dark " style="width: 50%">
+  <div class="card-body p-md-8 mx-md-3">
+      <div class="row justify-content-center">
+        <h2 class="mt-4 mb-4 fw-bold text-center">Basic Details</h2>
+      </div>
+
+      <%= form_for :basic_details, url: "/basic_details" do |form| %>
+      <div class = "form-elements">
+      <div class="form-group form-group-lg">
+            <strong><%= form.label :name %></strong>
+            <%= form.text_field :name, class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+            <strong><%= form.label :email%></strong>
+            <%= form.text_field :email, class: 'form-control'%>
+      </div>
+
+      <div class="form-group">
+            <strong><%= form.label :raising_funds_for%></strong><br>
+            <%= form.select :purpose_of_fundraiser, ["Medical", "Education",  "Memorial", "others"], class: 'form-control' %>
+      </div>
+    
+      <div class="form-group">
+            <strong><%= form.label :fundraiser_beneficial_for %></strong><br>
+            <%= form.select :type_of_fundraiser, ["Myslef", "Family", "Individual", "Group"], class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+            <strong><%= form.label :mobile_number %></strong>
+            <%= form.text_field :mobile_number, class: 'form-control' %>
+      </div>
+
+      <div class="form-group text-center ">
+            <%= form.submit class:"submit-button" %>
+      </div>
+      <% end %>
+      </div>
+    </div>
+</div>
+</div>

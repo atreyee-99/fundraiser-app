@@ -348,3 +348,34 @@
   margin-left:35px;
 }
 
+.submit-button{
+  background-color: rgba(109,27,73,1); 
+  width: 440px;
+  border-radius: 20px;
+  border-color:none;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Lato;
+}
+.form{
+  margin-left: 350px;
+  background-color: lightgray;
+  width: 600px;
+  height: 600px;
+}
+.navbar-text{
+  /* padding-top: 5px; */
+  font-family: Lato;
+  font-size: 20px;
+}
+.navbar{
+  background-color: lightgray;
+  shadow: 10px 10px;
+}
+.form-elements{
+  margin-left: 100px;
+}
+
+
+
